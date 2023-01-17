@@ -37,7 +37,9 @@ player1El.classList.remove("player--winner")
 player0El.classList.add("player--active")
 player1El.classList.remove("player--active")
 }
+console.log(activePlayer);
 init()
+console.log(activePlayer);
 
 const switchPlayer=function(){
     document.getElementById(`current--${activePlayer}`).textContent=0
